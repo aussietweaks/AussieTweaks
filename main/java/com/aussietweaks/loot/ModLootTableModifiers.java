@@ -370,7 +370,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/skeleton"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.05f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_RANGED))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -497,7 +497,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/stray"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.05f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.03f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_RANGED))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -524,7 +524,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/bogged"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.05f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.03f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_RANGED))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -551,7 +551,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/parched"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.05f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.03f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_RANGED))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -578,7 +578,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/zombie"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.01f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_WEAPONS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -587,7 +587,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/zombie"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.01f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_TOOLS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -605,7 +605,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/zombie"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.01f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_GOLD_ARMOR))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -614,7 +614,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/husk"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.03f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_WEAPONS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -623,7 +623,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/husk"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.01f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_TOOLS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -641,7 +641,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/zombie_villager"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.03f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.02f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_WEAPONS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
@@ -650,7 +650,7 @@ public class ModLootTableModifiers {
         if(key.identifier().equals(Identifier.withDefaultNamespace("entities/zombie_villager"))) {
             LootPool.Builder poolBuilder = LootPool.lootPool()
                     .setRolls(ContextIntProviders.exactly(1))
-                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.07f, 0.01f))
+                    .when(LootItemRandomChanceWithEnchantedBonusCondition.randomChanceAndLootingBoost(enchantments, 0.05f, 0.01f))
                     .add(LootItem.lootTableItem(ModItems.COMPENDIUM_IRON_TOOLS))
                     .apply(SetItemCountFunction.setCount(ContextIntProviders.exactly(1)).build())
                     .when(LootItemKilledByPlayerCondition.killedByPlayer());
