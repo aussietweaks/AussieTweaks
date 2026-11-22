@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:iron_spear_head",
+    "C": "aussietweaks:compendium_iron_weapons",
+    "X": "aussietweaks:handle"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "XC "
+  ],
+  "result": {
+    "id": "minecraft:iron_spear"
+  }
+}

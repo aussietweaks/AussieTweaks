@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stallion_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:stallion_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:stallion_steak_from_smelting_stallion_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stallion_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:stallion_steak_from_smelting_stallion_meat"
+    ]
+  }
+}

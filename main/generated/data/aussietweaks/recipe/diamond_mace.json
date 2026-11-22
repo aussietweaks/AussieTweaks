@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:diamond_core",
+    "S": "aussietweaks:handle",
+    "X": "aussietweaks:compendium_diamond_weapons"
+  },
+  "pattern": [
+    "R",
+    "S",
+    "X"
+  ],
+  "result": {
+    "id": "aussietweaks:diamond_mace"
+  }
+}

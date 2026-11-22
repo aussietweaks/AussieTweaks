@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_sword",
+  "key": {
+    "R": "minecraft:mangrove_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "R",
+    "R",
+    "X"
+  ],
+  "result": {
+    "id": "aussietweaks:mangrove_sword"
+  }
+}

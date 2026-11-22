@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_hoe",
+  "key": {
+    "R": "minecraft:oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:wooden_hoe",
+      "minecraft:custom_name": {
+        "text": "Oak Hoe",
+        "italic": false
+      }
+    }
+  }

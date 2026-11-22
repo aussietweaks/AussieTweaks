@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bowl",
+    "aussietweaks:turtle_meat",
+    "#minecraft:mushrooms"
+  ],
+  "result": {
+    "id": "aussietweaks:turtle_soup"
+  }
+}

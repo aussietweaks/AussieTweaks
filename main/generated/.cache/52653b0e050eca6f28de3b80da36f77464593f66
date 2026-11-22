@@ -1,0 +1,14 @@
+// 26.3	-999999999-01-01T00:00:00	AussieTweaks/Tags for minecraft:item
+375730fe73844c5aae12a0f163143d08e0d63aa5 data/aussietweaks/tags/item/cooked_meats.json
+cb837a9e2dfd1f68bb4ee9d7149dd204e29629b6 data/aussietweaks/tags/item/metal_mace.json
+db921f3e8c82b116d993de501c493dd0ee18d88e data/minecraft/tags/item/axes.json
+cc7b62826369505817eefd9fbef4c35a7719d76b data/minecraft/tags/item/chest_armor.json
+9d398b387734a06d0bc6e3751b07736cc0901d8a data/minecraft/tags/item/enchantable/mace.json
+cc7b62826369505817eefd9fbef4c35a7719d76b data/minecraft/tags/item/foot_armor.json
+cc7b62826369505817eefd9fbef4c35a7719d76b data/minecraft/tags/item/head_armor.json
+f3ebd67321d755d89c0c4577101f846ff81e5d6f data/minecraft/tags/item/hoes.json
+cc7b62826369505817eefd9fbef4c35a7719d76b data/minecraft/tags/item/leg_armor.json
+4ed1e76d77530521e5511597b8fc2d9e7512e312 data/minecraft/tags/item/pickaxes.json
+ac05a5f6d4438b72bc3c3b8f4914db7c43e0172d data/minecraft/tags/item/shovels.json
+c6ee68fb39b2f6533ebe0fd27e9f1c03b28c24cd data/minecraft/tags/item/spears.json
+81c1ace8793dff811e51766ff506525b75dddff8 data/minecraft/tags/item/swords.json

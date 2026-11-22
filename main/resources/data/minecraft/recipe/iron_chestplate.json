@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:iron_ingot",
+    "X": "aussietweaks:compendium_iron_armor"
+  },
+  "pattern": [
+    "RXR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:iron_chestplate"
+  }
+}

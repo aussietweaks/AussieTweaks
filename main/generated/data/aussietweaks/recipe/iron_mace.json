@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:iron_core",
+    "S": "aussietweaks:handle",
+    "X": "aussietweaks:compendium_iron_weapons"
+  },
+  "pattern": [
+    "R",
+    "S",
+    "X"
+  ],
+  "result": {
+    "id": "aussietweaks:iron_mace"
+  }
+}

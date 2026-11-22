@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_sword",
+  "key": {
+    "R": "minecraft:potent_sulfur",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "R",
+    "R",
+    "X"
+  ],
+  "result": {
+    "id": "aussietweaks:sulfur_sword"
+  }
+}

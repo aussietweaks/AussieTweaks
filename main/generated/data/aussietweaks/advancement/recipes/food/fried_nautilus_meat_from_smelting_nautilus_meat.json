@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nautilus_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:nautilus_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:fried_nautilus_meat_from_smelting_nautilus_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nautilus_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:fried_nautilus_meat_from_smelting_nautilus_meat"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:book",
+    "aussietweaks:compendium_gold_armor"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aussietweaks:compendium_gold_armor"
+  }
+}

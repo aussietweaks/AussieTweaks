@@ -1,0 +1,21 @@
+package com.aussietweaks;
+
+import com.aussietweaks.datagen.ModEquipmentAssetProvider;
+import com.aussietweaks.datagen.ModItemTagsProvider;
+import com.aussietweaks.datagen.ModModelProvider;
+import com.aussietweaks.datagen.ModRecipeProvider;
+import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+
+public class AussieTweaksDataGenerator implements DataGeneratorEntrypoint {
+	@Override
+	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+    	var pack =fabricDataGenerator.createPack();
+
+		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagsProvider::new);
+		pack.addProvider(ModEquipmentAssetProvider::new);
+
+	}
+}

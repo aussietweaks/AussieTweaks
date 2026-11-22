@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:gold_core",
+    "S": "aussietweaks:handle",
+    "X": "aussietweaks:compendium_gold_weapons"
+  },
+  "pattern": [
+    "R",
+    "S",
+    "X"
+  ],
+  "result": {
+    "id": "aussietweaks:gold_mace"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:armadillo_scute"
+  },
+  "pattern": [
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "id": "aussietweaks:armadillo_boots"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": "aussietweaks:squid_tentacles",
+  "result": {
+    "id": "aussietweaks:fried_squid_meat"
+  }
+}

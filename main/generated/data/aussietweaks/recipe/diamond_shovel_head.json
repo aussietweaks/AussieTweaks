@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shovel_head",
+  "key": {
+    "R": "minecraft:diamond"
+  },
+  "pattern": [
+    " R ",
+    " RR"
+  ],
+  "result": {
+    "id": "aussietweaks:diamond_shovel_head"
+  }
+}

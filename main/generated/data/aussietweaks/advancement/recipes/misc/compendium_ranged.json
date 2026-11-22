@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compendium_ranged": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:compendium_ranged"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:compendium_ranged"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compendium_ranged"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:compendium_ranged"
+    ]
+  }
+}

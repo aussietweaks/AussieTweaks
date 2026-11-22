@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:sweet_berries",
+    "minecraft:sweet_berries",
+    "#minecraft:eggs"
+  ],
+  "result": {
+    "id": "aussietweaks:sweet_berry_pie"
+  }
+}

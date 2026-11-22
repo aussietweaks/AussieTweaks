@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_shovel",
+  "key": {
+    "R": "minecraft:crimson_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " R ",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:crimson_shovel"
+  }
+}

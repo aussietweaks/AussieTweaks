@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:diamond",
+    "X": "aussietweaks:compendium_diamond_armor"
+  },
+  "pattern": [
+    "RXR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:diamond_chestplate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": "aussietweaks:dispenser_mechanism",
+    "X": "minecraft:cobblestone",
+    "S": "minecraft:redstone"
+  },
+  "pattern": [
+    "XXX",
+    "XRX",
+    "XSX"
+  ],
+  "result": {
+    "id": "minecraft:dispenser"
+  }
+}

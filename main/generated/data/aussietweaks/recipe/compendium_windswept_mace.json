@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:breeze_rod",
+    "minecraft:breeze_rod",
+    "minecraft:book",
+    "aussietweaks:compendium_windswept_mace"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aussietweaks:compendium_windswept_mace"
+  }
+}

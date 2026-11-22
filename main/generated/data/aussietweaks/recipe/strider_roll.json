@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:salmon",
+    "aussietweaks:strider_leg",
+    "minecraft:dried_kelp"
+  ],
+  "result": {
+    "id": "aussietweaks:strider_roll"
+  }
+}

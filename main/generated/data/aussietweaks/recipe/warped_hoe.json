@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_hoe",
+  "key": {
+    "R": "minecraft:warped_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:warped_hoe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:compendium_ranged",
+    "X": "minecraft:stick",
+    "I": "minecraft:iron_ingot",
+    "T": "minecraft:tripwire_hook",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    "XIX",
+    "STS",
+    " XR"
+  ],
+  "result": {
+    "id": "minecraft:crossbow"
+  }
+}

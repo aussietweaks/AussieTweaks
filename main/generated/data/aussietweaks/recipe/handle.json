@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": "minecraft:stick"
+  },
+  "pattern": [
+    "  R",
+    " R ",
+    "R  "
+  ],
+  "result": {
+    "id": "aussietweaks:handle"
+  }
+}

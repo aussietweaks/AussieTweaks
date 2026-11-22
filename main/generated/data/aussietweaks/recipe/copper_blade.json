@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "blade",
+  "key": {
+    "R": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    " R ",
+    " R ",
+    "RRR"
+  ],
+  "result": {
+    "id": "aussietweaks:copper_blade"
+  }
+}

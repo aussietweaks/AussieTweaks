@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compendium_windswept_mace": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:compendium_windswept_mace"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:compendium_windswept_mace"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compendium_windswept_mace"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:compendium_windswept_mace"
+    ]
+  }
+}

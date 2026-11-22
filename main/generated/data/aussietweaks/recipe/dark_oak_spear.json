@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_spear",
+  "key": {
+    "R": "minecraft:dark_oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "aussietweaks:dark_oak_spear"
+  }
+}

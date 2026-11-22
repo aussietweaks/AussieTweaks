@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_armadillo_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:armadillo_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:cooked_armadillo_meat_from_smelting_armadillo_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_armadillo_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:cooked_armadillo_meat_from_smelting_armadillo_meat"
+    ]
+  }
+}

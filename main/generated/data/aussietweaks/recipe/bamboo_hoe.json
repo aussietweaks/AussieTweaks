@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_hoe",
+  "key": {
+    "R": "minecraft:bamboo_planks",
+    "X": "minecraft:bamboo"
+  },
+  "pattern": [
+    " RR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:bamboo_hoe"
+  }
+}

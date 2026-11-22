@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_axe",
+  "key": {
+    "R": "minecraft:bamboo_planks",
+    "X": "minecraft:bamboo"
+  },
+  "pattern": [
+    " RR",
+    " XR",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:bamboo_axe"
+  }
+}

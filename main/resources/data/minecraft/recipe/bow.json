@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:compendium_ranged",
+    "X": "minecraft:stick",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " XS",
+    "XRS",
+    " XS"
+  ],
+  "result": {
+    "id": "minecraft:bow"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hoe_head",
+  "key": {
+    "R": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "  R"
+  ],
+  "result": {
+    "id": "aussietweaks:iron_hoe_head"
+  }
+}

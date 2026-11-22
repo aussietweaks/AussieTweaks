@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compendium_iron_tools": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:compendium_iron_tools"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:compendium_iron_tools"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compendium_iron_tools"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:compendium_iron_tools"
+    ]
+  }
+}

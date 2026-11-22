@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_pickaxe",
+  "key": {
+    "R": "minecraft:oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "RRR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+      "minecraft:custom_name": {
+        "text": "Oak Pickaxe",
+        "italic": false
+      }
+    }
+  }

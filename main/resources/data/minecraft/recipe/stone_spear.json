@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_spear",
+
+  "key": {
+    "R": "minecraft:cobblestone",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "minecraft:stone_spear"
+    }
+  }

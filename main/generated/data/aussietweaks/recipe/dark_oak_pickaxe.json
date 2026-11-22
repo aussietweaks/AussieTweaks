@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_pickaxe",
+  "key": {
+    "R": "minecraft:dark_oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "RRR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:dark_oak_pickaxe"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:iron_ingot",
+    "minecraft:book",
+    "aussietweaks:compendium_iron_tools"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aussietweaks:compendium_iron_tools"
+  }
+}

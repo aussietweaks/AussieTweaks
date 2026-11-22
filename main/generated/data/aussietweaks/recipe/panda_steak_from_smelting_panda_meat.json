@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.1,
+  "ingredient": "aussietweaks:panda_meat",
+  "result": {
+    "id": "aussietweaks:panda_steak"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_shovel",
+  "key": {
+    "R": "minecraft:oak_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " R ",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:wooden_shovel",
+      "minecraft:custom_name": {
+        "text": "Oak Shovel",
+        "italic": false
+      }
+    }
+  }

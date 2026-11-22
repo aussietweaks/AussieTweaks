@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:string",
+    "minecraft:stick",
+    "minecraft:book",
+    "aussietweaks:compendium_ranged"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aussietweaks:compendium_ranged"
+  }
+}

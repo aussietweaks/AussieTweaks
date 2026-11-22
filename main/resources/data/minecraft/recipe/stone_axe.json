@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_axe",
+  "key": {
+    "R": "minecraft:cobblestone",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " XR",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:stone_axe"
+    }
+  }

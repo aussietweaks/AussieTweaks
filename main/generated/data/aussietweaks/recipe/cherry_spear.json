@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_spear",
+  "key": {
+    "R": "minecraft:cherry_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "aussietweaks:cherry_spear"
+  }
+}

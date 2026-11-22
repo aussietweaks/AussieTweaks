@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "core",
+  "key": {
+    "R": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " R ",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "id": "aussietweaks:iron_core"
+  }
+}

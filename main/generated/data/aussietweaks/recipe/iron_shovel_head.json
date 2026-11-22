@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shovel_head",
+  "key": {
+    "R": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    " R ",
+    " RR"
+  ],
+  "result": {
+    "id": "aussietweaks:iron_shovel_head"
+  }
+}

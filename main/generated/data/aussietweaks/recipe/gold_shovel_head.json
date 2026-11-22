@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shovel_head",
+  "key": {
+    "R": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    " R ",
+    " RR"
+  ],
+  "result": {
+    "id": "aussietweaks:gold_shovel_head"
+  }
+}

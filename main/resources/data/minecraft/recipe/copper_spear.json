@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:copper_spear_head",
+    "X": "aussietweaks:handle"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "minecraft:copper_spear"
+  }
+}

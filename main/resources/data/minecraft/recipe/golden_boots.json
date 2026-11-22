@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:gold_ingot",
+    "X": "aussietweaks:compendium_gold_armor"
+  },
+  "pattern": [
+    "R R",
+    "RXR"
+  ],
+  "result": {
+    "id": "minecraft:golden_boots"
+  }
+}

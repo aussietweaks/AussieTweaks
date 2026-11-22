@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " D ",
+    " S ",
+    " X "
+  ],
+  "key": {
+    "S": "minecraft:breeze_rod",
+    "D": "minecraft:heavy_core",
+    "X": "aussietweaks:compendium_windswept_mace"
+  },
+  "result": {
+    "id": "minecraft:mace",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:wind_burst": 1
+      },
+      "minecraft:custom_name": {
+        "text": "Windswept Mace",
+        "italic": false
+      }
+    }
+  }
+}

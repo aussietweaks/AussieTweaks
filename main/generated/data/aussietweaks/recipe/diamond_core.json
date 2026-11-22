@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "core",
+  "key": {
+    "R": "minecraft:diamond"
+  },
+  "pattern": [
+    " R ",
+    "RRR",
+    " R "
+  ],
+  "result": {
+    "id": "aussietweaks:diamond_core"
+  }
+}

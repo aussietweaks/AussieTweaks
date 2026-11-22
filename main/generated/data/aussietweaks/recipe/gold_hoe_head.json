@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hoe_head",
+  "key": {
+    "R": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "  R"
+  ],
+  "result": {
+    "id": "aussietweaks:gold_hoe_head"
+  }
+}

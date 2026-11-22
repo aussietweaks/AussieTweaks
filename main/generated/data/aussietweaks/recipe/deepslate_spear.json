@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_spear",
+  "key": {
+    "R": "minecraft:cobbled_deepslate",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "  R",
+    " X ",
+    "X  "
+  ],
+  "result": {
+    "id": "aussietweaks:deepslate_spear"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:gold_ingot",
+    "X": "aussietweaks:compendium_gold_armor"
+  },
+  "pattern": [
+    "RXR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "minecraft:golden_chestplate"
+  }
+}

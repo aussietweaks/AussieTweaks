@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:salmon",
+    "aussietweaks:fried_squid_meat",
+    "minecraft:dried_kelp",
+    "minecraft:magma_cream"
+  ],
+  "result": {
+    "id": "aussietweaks:spicy_squid_roll"
+  }
+}

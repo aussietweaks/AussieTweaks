@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pickaxe_head",
+  "key": {
+    "R": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "RRR"
+  ],
+  "result": {
+    "id": "aussietweaks:iron_pickaxe_head"
+  }
+}

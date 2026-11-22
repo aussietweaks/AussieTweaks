@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_goat_mutton": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:goat_mutton"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:cooked_goat_mutton_from_smelting_goat_mutton"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_goat_mutton"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:cooked_goat_mutton_from_smelting_goat_mutton"
+    ]
+  }
+}

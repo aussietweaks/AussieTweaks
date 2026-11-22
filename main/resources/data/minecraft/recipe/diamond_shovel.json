@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:diamond_shovel_head",
+    "S": "aussietweaks:compendium_diamond_tools",
+    "X": "aussietweaks:handle"
+  },
+  "pattern": [
+    "R",
+    "X",
+    "S"
+  ],
+  "result": {
+    "id": "minecraft:diamond_shovel"
+  }
+}

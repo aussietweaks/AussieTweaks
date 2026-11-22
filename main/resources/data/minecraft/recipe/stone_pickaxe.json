@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_pickaxe",
+  "key": {
+    "R": "minecraft:cobblestone",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    "RRR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "minecraft:stone_pickaxe"
+    }
+  }

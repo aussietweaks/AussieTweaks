@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_llama_meat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:llama_meat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:llama_steak_from_smelting_llama_meat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_llama_meat"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:llama_steak_from_smelting_llama_meat"
+    ]
+  }
+}

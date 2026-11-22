@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "wooden_axe",
+  "key": {
+    "R": "minecraft:jungle_planks",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " XR",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:jungle_axe"
+  }
+}

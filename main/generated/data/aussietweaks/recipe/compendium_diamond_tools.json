@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond",
+    "minecraft:diamond",
+    "minecraft:book",
+    "aussietweaks:compendium_diamond_tools"
+  ],
+  "result": {
+    "count": 2,
+    "id": "aussietweaks:compendium_diamond_tools"
+  }
+}

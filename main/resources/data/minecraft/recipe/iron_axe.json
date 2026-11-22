@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "aussietweaks:iron_axe_head",
+    "S": "aussietweaks:compendium_iron_tools",
+    "X": "aussietweaks:handle"
+  },
+  "pattern": [
+    "R",
+    "X",
+    "S"
+  ],
+  "result": {
+    "id": "minecraft:iron_axe"
+  }
+}

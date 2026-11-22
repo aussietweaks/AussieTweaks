@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_axe",
+  "key": {
+    "R": "minecraft:blackstone",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " XR",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:blackstone_axe"
+  }
+}

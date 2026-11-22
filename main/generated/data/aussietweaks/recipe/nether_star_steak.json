@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "aussietweaks:nether_star_dust",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats",
+    "#aussietweaks:cooked_meats"
+  ],
+  "result": {
+    "id": "aussietweaks:nether_star_steak"
+  }
+}

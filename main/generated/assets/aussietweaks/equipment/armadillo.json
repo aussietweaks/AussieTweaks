@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "aussietweaks:armadillo"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "aussietweaks:armadillo"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "aussietweaks:armadillo"
+      }
+    ]
+  }
+}

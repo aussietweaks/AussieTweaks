@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:salmon",
+    "aussietweaks:fried_axolotl",
+    "minecraft:dried_kelp"
+  ],
+  "result": {
+    "id": "aussietweaks:axolotl_roll"
+  }
+}

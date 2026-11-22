@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "stone_hoe",
+  "key": {
+    "R": "minecraft:blackstone",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " RR",
+    " X ",
+    " X "
+  ],
+  "result": {
+    "id": "aussietweaks:blackstone_hoe"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	"required": true,
+	"package": "com.aussietweaks.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ExampleMixin",
+		"PhantomLeaderMixin",
+		"PhantomRendererMixin",
+		"PhantomRenderStateMixin",
+		"ZombieRenderStateMixin",
+		"ZombieRendererMixin",
+		"ZombieMixin",
+		"LivingEntityRendererMixin",
+		"ExperienceOrbRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

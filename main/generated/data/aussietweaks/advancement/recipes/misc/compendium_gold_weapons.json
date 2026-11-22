@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_compendium_gold_weapons": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:compendium_gold_weapons"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:compendium_gold_weapons"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_compendium_gold_weapons"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:compendium_gold_weapons"
+    ]
+  }
+}

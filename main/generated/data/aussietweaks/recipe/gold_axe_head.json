@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "axe_head",
+  "key": {
+    "R": "minecraft:gold_ingot"
+  },
+  "pattern": [
+    "RRR",
+    "  R",
+    "  R"
+  ],
+  "result": {
+    "id": "aussietweaks:gold_axe_head"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_magma_cream": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_cream"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_salmon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:salmon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "aussietweaks:spicy_everything_roll"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_salmon",
+      "has_magma_cream"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aussietweaks:spicy_everything_roll"
+    ]
+  }
+}
