@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/tamed_animal",
+  "criteria": {
+    "horse": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.horse.description"
+    },
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.horse.title"
+    }
+  },
+  "requirements": [
+    [
+      "horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

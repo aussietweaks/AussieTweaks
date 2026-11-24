@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/diamonds",
+  "criteria": {
+    "jukebox": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jukebox"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.jukebox.description"
+    },
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.jukebox.title"
+    }
+  },
+  "requirements": [
+    [
+      "jukebox"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

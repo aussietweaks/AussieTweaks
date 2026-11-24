@@ -1,0 +1,37 @@
+{
+  "parent": "aussietweaks:aussietweaks/dried_ghast",
+  "criteria": {
+    "harnessed_happy_ghast": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:happy_ghast"
+          }
+        },
+        "item": {
+          "items": "#minecraft:harnesses"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.harness_happy_ghast.description"
+    },
+    "icon": {
+      "id": "minecraft:blue_harness"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.harness_happy_ghast.title"
+    }
+  },
+  "requirements": [
+    [
+      "harnessed_happy_ghast"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

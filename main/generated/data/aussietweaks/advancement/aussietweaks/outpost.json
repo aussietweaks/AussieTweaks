@@ -1,0 +1,29 @@
+{
+  "parent": "aussietweaks:aussietweaks/trade",
+  "criteria": {
+    "loot_pillager_outpost": {
+      "conditions": {
+        "loot_tables": "minecraft:chests/pillager_outpost"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.outpost.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.outpost.title"
+    }
+  },
+  "requirements": [
+    [
+      "loot_pillager_outpost"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

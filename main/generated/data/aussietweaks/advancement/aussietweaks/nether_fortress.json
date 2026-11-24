@@ -1,0 +1,36 @@
+{
+  "parent": "aussietweaks:aussietweaks/nether",
+  "criteria": {
+    "nether_fortress": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "minecraft:fortress"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.nether_fortress.description"
+    },
+    "icon": {
+      "id": "minecraft:nether_brick"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.nether_fortress.title"
+    }
+  },
+  "requirements": [
+    [
+      "nether_fortress"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

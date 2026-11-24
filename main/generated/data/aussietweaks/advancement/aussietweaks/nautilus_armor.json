@@ -1,0 +1,126 @@
+{
+  "parent": "aussietweaks:aussietweaks/nautilus",
+  "criteria": {
+    "copper_nautilus_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:copper_nautilus_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:copper_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "diamond_nautilus_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:diamond_nautilus_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:diamond_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "gold_nautilus_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:golden_nautilus_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "iron_nautilus_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:iron_nautilus_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:iron_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "netherite_nautilus_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:netherite_nautilus_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:netherite_nautilus_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.nautilus_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond_nautilus_armor"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.nautilus_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_nautilus_armor",
+      "iron_nautilus_armor",
+      "gold_nautilus_armor",
+      "diamond_nautilus_armor",
+      "netherite_nautilus_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

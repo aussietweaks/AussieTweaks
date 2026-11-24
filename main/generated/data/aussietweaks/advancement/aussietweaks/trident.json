@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/sword",
+  "criteria": {
+    "trident": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:trident"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.trident.description"
+    },
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.trident.title"
+    }
+  },
+  "requirements": [
+    [
+      "trident"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

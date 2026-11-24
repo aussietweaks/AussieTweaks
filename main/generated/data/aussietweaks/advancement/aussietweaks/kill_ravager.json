@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_breeze",
+  "criteria": {
+    "killed_ravager": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:ravager"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_ravager.description"
+    },
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_ravager.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_ravager"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

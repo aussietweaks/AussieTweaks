@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_creeper",
+  "criteria": {
+    "killed_enderman": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:enderman"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_enderman.description"
+    },
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_enderman.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_enderman"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

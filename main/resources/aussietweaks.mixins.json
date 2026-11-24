@@ -11,7 +11,10 @@
 		"ZombieRendererMixin",
 		"ZombieMixin",
 		"LivingEntityRendererMixin",
-		"ExperienceOrbRendererMixin"
+		"ExperienceOrbRendererMixin",
+		"ServerAdvancementManagerMixin",
+		"AdvancementNodeAccessor",
+		"TreeNodePositionMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

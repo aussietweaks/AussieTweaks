@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/nether",
+  "criteria": {
+    "respawn_anchor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:respawn_anchor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.respawn_anchor.description"
+    },
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.respawn_anchor.title"
+    }
+  },
+  "requirements": [
+    [
+      "respawn_anchor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

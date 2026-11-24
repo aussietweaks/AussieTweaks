@@ -1,0 +1,65 @@
+{
+  "parent": "aussietweaks:aussietweaks/copper_ingot",
+  "criteria": {
+    "copper_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.copper_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_helmet"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.copper_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_helmet",
+      "copper_chestplate",
+      "copper_leggings",
+      "copper_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

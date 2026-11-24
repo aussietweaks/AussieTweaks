@@ -1,0 +1,59 @@
+{
+  "parent": "aussietweaks:aussietweaks/nether",
+  "criteria": {
+    "distract_piglin_directly": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:flags": {
+              "is_baby": false
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:gold_ingot"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "distract_piglins_with_gold": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:flags": {
+              "is_baby": false
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:piglin_loved"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.oh_shiny.description"
+    },
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.oh_shiny.title"
+    }
+  },
+  "requirements": [
+    [
+      "distract_piglins_with_gold",
+      "distract_piglin_directly"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "aussietweaks:aussietweaks/wither",
+  "criteria": {
+    "beacon": {
+      "conditions": {
+        "level": {
+          "min": 4
+        }
+      },
+      "trigger": "minecraft:construct_beacon"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.max_beacon.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.max_beacon.title"
+    }
+  },
+  "requirements": [
+    [
+      "beacon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

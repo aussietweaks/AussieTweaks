@@ -1,0 +1,54 @@
+{
+  "parent": "aussietweaks:aussietweaks/cobblestone",
+  "criteria": {
+    "blackstone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:blackstone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "deepslate_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aussietweaks:deepslate_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "stone_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stone_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.stone_pickaxe.description"
+    },
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.stone_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "stone_pickaxe",
+      "blackstone_pickaxe",
+      "deepslate_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

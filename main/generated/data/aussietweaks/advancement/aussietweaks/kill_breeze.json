@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_elderguardian",
+  "criteria": {
+    "killed_breeze": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:breeze"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_breeze.description"
+    },
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_breeze.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_breeze"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

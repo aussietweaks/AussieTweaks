@@ -1,0 +1,28 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_dragon",
+  "criteria": {
+    "escape_island": {
+      "conditions": {
+        "blocks": "minecraft:end_gateway"
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.escape_island.description"
+    },
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.escape_island.title"
+    }
+  },
+  "requirements": [
+    [
+      "escape_island"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

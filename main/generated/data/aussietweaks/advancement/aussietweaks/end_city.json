@@ -1,0 +1,36 @@
+{
+  "parent": "aussietweaks:aussietweaks/escape_island",
+  "criteria": {
+    "end_city": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "minecraft:end_city"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.end_city.description"
+    },
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.end_city.title"
+    }
+  },
+  "requirements": [
+    [
+      "end_city"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

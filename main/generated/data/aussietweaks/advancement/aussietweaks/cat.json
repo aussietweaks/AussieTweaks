@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/tamed_animal",
+  "criteria": {
+    "cat": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.cat.description"
+    },
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.cat.title"
+    }
+  },
+  "requirements": [
+    [
+      "cat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

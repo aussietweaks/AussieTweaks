@@ -1,0 +1,37 @@
+{
+  "parent": "aussietweaks:aussietweaks/ride_zombie_horse",
+  "criteria": {
+    "ride_skeleton_horse": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:skeleton_horse"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.ride_skeleton_horse.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.ride_skeleton_horse.title"
+    }
+  },
+  "requirements": [
+    [
+      "ride_skeleton_horse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

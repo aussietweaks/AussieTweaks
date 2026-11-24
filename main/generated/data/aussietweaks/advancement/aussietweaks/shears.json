@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/iron_ingot",
+  "criteria": {
+    "shears": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.shears.description"
+    },
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.shears.title"
+    }
+  },
+  "requirements": [
+    [
+      "shears"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

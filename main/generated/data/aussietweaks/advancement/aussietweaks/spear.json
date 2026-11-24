@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/sword",
+  "criteria": {
+    "spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:spears"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.spear.description"
+    },
+    "icon": {
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.spear.title"
+    }
+  },
+  "requirements": [
+    [
+      "spear"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

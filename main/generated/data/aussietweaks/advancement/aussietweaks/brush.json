@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/copper_ingot",
+  "criteria": {
+    "brush": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brush"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.brush.description"
+    },
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.brush.title"
+    }
+  },
+  "requirements": [
+    [
+      "brush"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

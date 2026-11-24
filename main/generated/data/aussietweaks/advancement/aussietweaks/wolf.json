@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/tamed_animal",
+  "criteria": {
+    "wolf": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.wolf.description"
+    },
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.wolf.title"
+    }
+  },
+  "requirements": [
+    [
+      "wolf"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

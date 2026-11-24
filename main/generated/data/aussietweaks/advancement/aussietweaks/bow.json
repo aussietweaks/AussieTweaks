@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/sword",
+  "criteria": {
+    "bow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.bow.description"
+    },
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.bow.title"
+    }
+  },
+  "requirements": [
+    [
+      "bow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

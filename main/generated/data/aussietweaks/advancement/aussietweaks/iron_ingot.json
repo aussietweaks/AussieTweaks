@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/stone_pickaxe",
+  "criteria": {
+    "iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.iron_ingot.description"
+    },
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.iron_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

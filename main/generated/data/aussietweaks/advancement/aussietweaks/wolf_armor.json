@@ -1,0 +1,42 @@
+{
+  "parent": "aussietweaks:aussietweaks/wolf",
+  "criteria": {
+    "equip_wolf_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:wolf_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:wolf_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.wolf_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.wolf_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "equip_wolf_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

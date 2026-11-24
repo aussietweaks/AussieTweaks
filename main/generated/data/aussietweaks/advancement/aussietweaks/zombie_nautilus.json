@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/nautilus",
+  "criteria": {
+    "zombie_nautilus": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:zombie_nautilus"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.zombie_nautilus.description"
+    },
+    "icon": {
+      "id": "minecraft:horn_coral"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.zombie_nautilus.title"
+    }
+  },
+  "requirements": [
+    [
+      "zombie_nautilus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

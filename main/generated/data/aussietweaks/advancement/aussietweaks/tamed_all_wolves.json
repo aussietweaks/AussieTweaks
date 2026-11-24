@@ -1,0 +1,182 @@
+{
+  "parent": "aussietweaks:aussietweaks/wolf",
+  "criteria": {
+    "ashen": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:ashen"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "black": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:black"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "chestnut": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:chestnut"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "pale": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:pale"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "rusty": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:rusty"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "snowy": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:snowy"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "spotted": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:spotted"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "striped": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:striped"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    },
+    "woods": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "minecraft:woods"
+            },
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.tamed_all_wolves.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.tamed_all_wolves.title"
+    }
+  },
+  "requirements": [
+    [
+      "pale"
+    ],
+    [
+      "spotted"
+    ],
+    [
+      "snowy"
+    ],
+    [
+      "black"
+    ],
+    [
+      "woods"
+    ],
+    [
+      "chestnut"
+    ],
+    [
+      "striped"
+    ],
+    [
+      "rusty"
+    ],
+    [
+      "ashen"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

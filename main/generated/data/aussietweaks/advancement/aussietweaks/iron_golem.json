@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/trade",
+  "criteria": {
+    "iron_golem": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:iron_golem"
+          }
+        }
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.iron_golem.description"
+    },
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.iron_golem.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

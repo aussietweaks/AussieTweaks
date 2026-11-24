@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/tamed_animal",
+  "criteria": {
+    "axolotl": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:axolotl"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.axolotl.description"
+    },
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.axolotl.title"
+    }
+  },
+  "requirements": [
+    [
+      "axolotl"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

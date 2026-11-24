@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_ravager",
+  "criteria": {
+    "killed_evoker": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:evoker"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_evoker.description"
+    },
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_evoker.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_evoker"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

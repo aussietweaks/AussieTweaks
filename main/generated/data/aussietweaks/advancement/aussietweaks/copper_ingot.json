@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/stone_pickaxe",
+  "criteria": {
+    "copper_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.copper_ingot.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.copper_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_a_mob",
+  "criteria": {
+    "killed_creeper": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:creeper"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_creeper.description"
+    },
+    "icon": {
+      "id": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_creeper.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_creeper"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

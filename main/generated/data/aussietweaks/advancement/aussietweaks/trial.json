@@ -1,0 +1,37 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_a_mob",
+  "criteria": {
+    "trial": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "minecraft:trial_chambers"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.trial.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.trial.title"
+    }
+  },
+  "requirements": [
+    [
+      "trial"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

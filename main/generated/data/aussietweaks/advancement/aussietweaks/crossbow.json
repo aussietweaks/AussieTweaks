@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/sword",
+  "criteria": {
+    "crossbow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crossbow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.crossbow.description"
+    },
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.crossbow.title"
+    }
+  },
+  "requirements": [
+    [
+      "crossbow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

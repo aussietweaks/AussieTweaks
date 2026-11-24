@@ -1,0 +1,43 @@
+{
+  "parent": "aussietweaks:aussietweaks/brush",
+  "criteria": {
+    "archeology": {
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {}
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:brush"
+              }
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.archeology.description"
+    },
+    "icon": {
+      "id": "minecraft:prize_pottery_sherd"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.archeology.title"
+    }
+  },
+  "requirements": [
+    [
+      "archeology"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

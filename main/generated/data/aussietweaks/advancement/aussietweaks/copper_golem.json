@@ -1,0 +1,35 @@
+{
+  "parent": "aussietweaks:aussietweaks/copper_ingot",
+  "criteria": {
+    "summon_copper_golem": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:copper_golem"
+          }
+        }
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.copper_golem.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.copper_golem.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_copper_golem"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/iron_pickaxe",
+  "criteria": {
+    "diamonds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.diamonds.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.diamonds.title"
+    }
+  },
+  "requirements": [
+    [
+      "diamonds"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

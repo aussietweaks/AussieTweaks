@@ -1,0 +1,25 @@
+{
+  "parent": "aussietweaks:aussietweaks/root",
+  "criteria": {
+    "trade": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.trade.description"
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.trade.title"
+    }
+  },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

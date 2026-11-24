@@ -1,0 +1,36 @@
+{
+  "parent": "aussietweaks:aussietweaks/horse",
+  "criteria": {
+    "ride_camel": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:vehicle": {
+              "minecraft:entity_type": "minecraft:camel"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:started_riding"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.ride_camel.description"
+    },
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.ride_camel.title"
+    }
+  },
+  "requirements": [
+    [
+      "ride_camel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

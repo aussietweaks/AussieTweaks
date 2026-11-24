@@ -1,0 +1,25 @@
+{
+  "parent": "aussietweaks:aussietweaks/seed",
+  "criteria": {
+    "breed": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.breed.description"
+    },
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.breed.title"
+    }
+  },
+  "requirements": [
+    [
+      "breed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

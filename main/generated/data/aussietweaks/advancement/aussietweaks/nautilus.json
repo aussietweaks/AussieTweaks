@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/tamed_animal",
+  "criteria": {
+    "nautilus": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:nautilus"
+          }
+        }
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.nautilus.description"
+    },
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.nautilus.title"
+    }
+  },
+  "requirements": [
+    [
+      "nautilus"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

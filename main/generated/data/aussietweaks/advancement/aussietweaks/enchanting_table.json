@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/obsidian",
+  "criteria": {
+    "enchanting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.enchanting_table.description"
+    },
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.enchanting_table.title"
+    }
+  },
+  "requirements": [
+    [
+      "enchanting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

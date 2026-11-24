@@ -1,0 +1,50 @@
+{
+  "parent": "aussietweaks:aussietweaks/trial",
+  "criteria": {
+    "vault": {
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "false"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:trial_key"
+              }
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.vault.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.vault.title"
+    }
+  },
+  "requirements": [
+    [
+      "vault"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

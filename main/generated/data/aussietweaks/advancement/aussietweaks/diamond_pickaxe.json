@@ -1,0 +1,32 @@
+{
+  "parent": "aussietweaks:aussietweaks/diamonds",
+  "criteria": {
+    "diamond_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.diamond_pickaxe.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.diamond_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "diamond_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

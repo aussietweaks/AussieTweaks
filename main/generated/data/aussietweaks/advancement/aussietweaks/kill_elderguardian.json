@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_enderman",
+  "criteria": {
+    "killed_elderguardian": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:elder_guardian"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_elderguardian.description"
+    },
+    "icon": {
+      "id": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_elderguardian.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_elderguardian"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "aussietweaks:aussietweaks/jukebox",
+  "criteria": {
+    "allay_delivery": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:allay"
+          }
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.allay_delivery.description"
+    },
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.allay_delivery.title"
+    }
+  },
+  "requirements": [
+    [
+      "allay_delivery"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

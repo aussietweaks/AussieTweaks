@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/nether",
+  "criteria": {
+    "dried_ghast": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_ghast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.dried_ghast.description"
+    },
+    "icon": {
+      "id": "minecraft:dried_ghast"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.dried_ghast.title"
+    }
+  },
+  "requirements": [
+    [
+      "dried_ghast"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

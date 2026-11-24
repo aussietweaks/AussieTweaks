@@ -1,0 +1,34 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_evoker",
+  "criteria": {
+    "killed_brute": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin_brute"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.kill_brute.description"
+    },
+    "icon": {
+      "id": "minecraft:golden_axe"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.kill_brute.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_brute"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

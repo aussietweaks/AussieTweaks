@@ -1,0 +1,35 @@
+{
+  "parent": "aussietweaks:aussietweaks/wither_skull",
+  "criteria": {
+    "summon_wither": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wither"
+          }
+        }
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.wither.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.wither.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_wither"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

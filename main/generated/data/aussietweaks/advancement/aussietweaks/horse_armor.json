@@ -1,0 +1,126 @@
+{
+  "parent": "aussietweaks:aussietweaks/horse",
+  "criteria": {
+    "copper_horse_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:copper_horse_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:copper_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "diamond_horse_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:diamond_horse_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:diamond_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "gold_horse_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:golden_horse_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:golden_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "iron_horse_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:iron_horse_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:iron_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    },
+    "netherite_horse_armor": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:horse",
+            "minecraft:equipment": {
+              "body": {
+                "items": "minecraft:netherite_horse_armor"
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:netherite_horse_armor"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.horse_armor.description"
+    },
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.horse_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "copper_horse_armor",
+      "iron_horse_armor",
+      "gold_horse_armor",
+      "diamond_horse_armor",
+      "netherite_horse_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

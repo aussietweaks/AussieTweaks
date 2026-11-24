@@ -1,0 +1,35 @@
+{
+  "parent": "aussietweaks:aussietweaks/kill_dragon",
+  "criteria": {
+    "summon_ender_dragon": {
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:ender_dragon"
+          }
+        }
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.respawn_dragon.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.respawn_dragon.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_ender_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

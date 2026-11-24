@@ -1,0 +1,50 @@
+{
+  "parent": "aussietweaks:aussietweaks/vault",
+  "criteria": {
+    "ominous_vault": {
+      "conditions": {
+        "location": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:vault",
+                  "state": {
+                    "ominous": "true"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:match_tool",
+              "predicate": {
+                "items": "minecraft:ominous_trial_key"
+              }
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.ominous_vault.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.ominous_vault.title"
+    }
+  },
+  "requirements": [
+    [
+      "ominous_vault"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

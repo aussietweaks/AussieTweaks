@@ -1,0 +1,25 @@
+{
+  "parent": "aussietweaks:aussietweaks/enchanting_table",
+  "criteria": {
+    "enchanting_table": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.aussietweaks.enchant.description"
+    },
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.enchant.title"
+    }
+  },
+  "requirements": [
+    [
+      "enchanting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

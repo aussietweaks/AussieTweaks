@@ -1,0 +1,33 @@
+{
+  "parent": "aussietweaks:aussietweaks/iron_ingot",
+  "criteria": {
+    "shield": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shield"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.aussietweaks.shield.description"
+    },
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "advancements.aussietweaks.shield.title"
+    }
+  },
+  "requirements": [
+    [
+      "shield"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

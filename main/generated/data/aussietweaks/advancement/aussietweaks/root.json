@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "in_overworld": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "minecraft:overworld"
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.aussietweaks.root.description"
+    },
+    "icon": {
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.aussietweaks.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "in_overworld"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
